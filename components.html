@@ -207,6 +207,14 @@
      </div>
     </section>
 </div>
-<script src="main.js"></script>
+<script>
+            const alertCodeBtn = document.querySelector("#alert-code-btn");
+                const alertcodeDiv = document.querySelector("#alert-div-code");
+
+                alertCodeBtn.addEventListener("click",() =>{
+                        console.log("clicked");
+                        alertcodeDiv.style.display =="block" ? alertcodeDiv.style.display ="none": alertcodeDiv.style.display ="block";
+                    });
+</script>
 </body>
 </html>
