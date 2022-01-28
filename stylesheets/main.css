@@ -1,0 +1,69 @@
+@import url(../index.css);
+@import url(/component.css);
+@import url(./alert/alert.css);
+@import url(./avatar/avatar.css);
+
+
+
+
+/* COLORS */
+:root
+{
+    --light-blue:#93c5fd;
+    --dark-black:#18181b;
+    --white-color:white;
+    --light-slate:#f1f5f9;
+    --dark-teal:#0f766e;
+    --mediun-teal:#0d9488;
+    --dark-cyan:#0e7490;
+    --light-teal:#14b8a6;
+    --ex-light-teal:#ccfbf1;
+    --light-stone:#a8a29e;
+    --dark-stone:#57534e;
+    --dark-green:#14532d;
+    --light-green:#4ade80;
+    --dark-zinc:#71717a;
+    --dark-sky:#0369a1;
+    --light-sky:#e0f2fe;
+    --dark-blue:#05386B;
+    --dark-rose:#be123c;
+    --light-rose:#fb7185;
+    --dark-yellow:#ca8a04;
+    --light-yellow:#fde047;
+    --dark-orange:#f97316;
+    --light-orange:#fdba74;
+    --dark-coco:#bb350f;
+    --light-coco:#964224;
+    --dark-chocolate:#6B2309;
+    --dark-purple:#a21caf;
+    --light-purple:#e879f9;
+    --red-color:#ef4444;
+}
+/* RESET CSS */
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;      
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+.outline
+{
+    border: 2px solid gray;
+}
+/* components page's sidebar with component's CSS */
+
+.sidebar-component-list.component-active
+{
+     font-weight: 700;
+     color:var(--dark-rose);
+}
+
