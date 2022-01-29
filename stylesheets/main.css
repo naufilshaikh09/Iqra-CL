@@ -1,8 +1,15 @@
 @import url(../index.css);
 
+@import url(/component.css);
+@import url(./alert/alert.css);
+@import url(./avatar/avatar.css);
 
 
 
+
+
+
+/* COLORS */
 
 :root
 {
@@ -33,6 +40,9 @@
     --light-coco:#964224;
     --dark-chocolate:#6B2309;
     --dark-purple:#a21caf;
+
+    --light-purple:#e879f9;
+    --red-color:#ef4444;
 }
 
 /* RESET CSS */
@@ -62,3 +72,5 @@ a{
      font-weight: 700;
      color:var(--dark-rose);
 }
+
+
